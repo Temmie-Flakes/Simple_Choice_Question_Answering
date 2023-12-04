@@ -1,6 +1,6 @@
 A Super simple, Super easy to install implementation of the multiple choice models from huggingface at https://huggingface.co/models?pipeline_tag=multiple-choice  
 (note this tab is hidden from huggingface, you can only see it by direct link... why...)<br />
-I tried to make this installer beginner friendly. I used heavily modified code from 
+I tried to make this installer beginner friendly. 
 There are dosens of things to improve but for right now it WORKS and I want to upload it before I break it again.  
 Please ignore the terminal outputs, its alot of garbage left over from debugging. Will remove later
 
