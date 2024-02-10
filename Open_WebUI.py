@@ -73,7 +73,7 @@ def restartRecompile():
     import sys
     if '--autolaunch' in sys.argv:
         sys.argv.remove('--autolaunch')
-    os.execl(sys.executable, 'python', __file__, *sys.argv[1:])
+    os.execl(sys.executable, 'python', '"'+__file__+'"', *sys.argv[1:])
 
 def findAnswerInText(question, context, answers):
     timeKeeper=time.perf_counter()
